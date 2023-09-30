@@ -1,0 +1,31 @@
+/* CSS - (calculator.css) */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('contact.jpg') no-repeat center/cover;
+    
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #9c906b;
+    border-radius: 5px;
+    background-color: #69a085ba;
+}
+
+#display {
+    width: 95%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
