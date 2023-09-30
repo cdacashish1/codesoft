@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    background: url('bike.jpg') ;
+}
+
+/* Apply styles to header, navigation, sections, and footer */
+header {
+    background-color: #452a2a;
+    color: rgb(71, 42, 42);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(58, 45, 45);
+    text-align: center;
+    padding: 10px;
+}
